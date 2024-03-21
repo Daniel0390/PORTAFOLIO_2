@@ -1,0 +1,228 @@
+
+
+*{
+    margin: 0;
+    padding: 0;                                             
+    box-sizing: border-box;                   
+}  
+
+ 
+
+
+
+
+
+.cont_principal{
+
+    background-color: rgb(211, 204, 204);
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(148, 139, 139) ;
+    margin: auto;
+    margin-top: 25px;
+
+    max-width: 1000PX;
+    height: 1000PX;
+    
+}
+
+.menu{
+    /* border: 1px gray solid; */
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    gap: 8px;
+    float: inline-end;
+    
+}
+
+.inicio{
+    color: rgb(31, 79, 31);
+    background-color: rgb(211, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inicio:hover{
+      background-color:rgb(153, 149, 149); ;
+}
+
+.contactos{
+    color: rgb(31, 79, 31);
+    background-color: rgb(211, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactos:hover{
+    background-color:rgb(153, 149, 149); ;
+}
+
+.skills{
+    color: rgb(31, 79, 31);
+    background-color: rgb(211, 204, 204);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills:hover{
+    background-color:rgb(153, 149, 149); ;
+}
+
+
+
+
+.cont_hijo_1{
+   
+   margin-top: 50px;
+   
+   text-align: center;
+}
+
+
+
+.nombre{
+    font-size: 30px;
+    color: rgb(31, 79, 31);
+}
+
+.Hello{
+    color: rgb(161, 141, 26);
+}
+
+ h1{
+    color: rgb(162, 132, 31);
+ }
+
+ u{
+    color: rgb(161, 141, 26);
+ }
+
+ b{
+    color: rgb(28, 69, 28);
+ }
+
+
+
+
+
+
+.cont_hijo_2{
+    
+    margin-bottom: 20px;
+    display: flex;
+  
+}
+
+.mifoto{
+    width: 360px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+
+    box-shadow: 3px 3px rgb(148, 139, 139);
+
+
+    margin: auto;
+
+    
+}
+
+
+
+
+.cont_hijo_3{
+    
+    margin-bottom: 20px;
+    
+}
+
+p{
+    font-size: 23px;
+}
+
+
+
+
+.cont_hijo_4{
+   
+    width: 500px;
+    margin: auto;
+
+}
+
+img{
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    
+.cont_hijo_4{
+    
+    width: 450px;
+    margin: auto;
+}
+}
+
+
+@media screen and (max-width:480px) {
+    
+    .cont_hijo_1{
+        
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .mifoto{
+        width: 318px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+    
+    
+        margin: auto;
+    }
+
+    .cont_hijo_4{
+       
+        width: 450px;
+        margin: auto;
+        
+    
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+    .cont_hijo_4{
+       
+        width: 310px;
+        margin-top: 0px;
+        
+    
+    }
+
+    img{
+        width: 40px;
+        height: 40px;
+    
+        margin: 5px;
+    }
+}
+    
+
+
+
+
+
+
+
